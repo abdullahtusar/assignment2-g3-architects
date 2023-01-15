@@ -175,7 +175,7 @@ img{
     display: flex;
     gap: 125px;
     justify-content: space-evenly;
-    padding: 100px 50px 180px;
+    padding: 100px 50px 130px;
 }
 
 .fact{
@@ -208,7 +208,8 @@ img{
     display: flex;
     align-items: center;
     gap: 50px;
-    padding-bottom: 130px;
+    padding-top: 130px;
+    justify-content: space-evenly;
 }
 .design-image img{
     border-radius: 8px;
@@ -366,6 +367,7 @@ img{
     .building-design {
         flex-direction: column;
         text-align: center;
+        padding-bottom: 50px;
     }
     .sponsor-image{
         gap: 50px;
